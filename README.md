@@ -1,4 +1,4 @@
-# Vending Machine System - DSA Based Python Project
+# 🥤 Vending Machine System — A DSA-Based Python Project
 
 ## 📌 Overview
 
@@ -43,6 +43,15 @@ The system offers two main user roles: **Admin** and **Customer**. Each role can
 - Browse available products
 - Find nearest machine with required product using **shortest path**
 - Purchase a product (stock updates automatically)
+
+---
+## 🗺️ High-Level System Architecture
+
+### 🔹 Vending Machines as Graph Nodes
+- Each **vending machine** is represented as a **node** in an **undirected weighted graph**.
+- The **edges** represent **distances between machines** (e.g., in meters or steps).
+- The connections (edges) between machines (like roads or hallways) are modeled using an **adjacency list**, with weights representing distances.
+- Users can interact with any vending machine to purchase items, and the system can compute the shortest path to another machine using **Dijkstra's Algorithm**.
 
 ---
 
