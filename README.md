@@ -55,6 +55,7 @@ The system offers two main user roles: **Admin** and **Customer**. Each role can
 
 ---
 
+
 ## 🗺️ Graph and Shortest Path
 - **Graph Representation**: The vending machines are treated as nodes; distances between them are weighted edges.
 - **Dijkstra’s Algorithm** is used to compute the nearest vending machine from a customer's current location that has the product in stock.
